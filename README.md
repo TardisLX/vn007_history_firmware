@@ -1,31 +1,32 @@
 # vn007_history_firmware
 
-> 此项目提供个人收集的用于 VN007（X21）及 VN007+（X21G）已公开的官方原版历史固件
+> 此项目提供用于VN007（X21）及VN007+（X21G）已公开的官方原版历史固件
 
 ## 机型/固件版本功能
 
 > 下面的表格列出了各个不同版本固件对各项功能的支持情况，对应的文字说明请见下文。
 
-|             |      X21_IDU       |     X21_IDU_SA     |        X21G        |      X21G_IDU      |
-| :---------: | :----------------: | :----------------: | :----------------: | :----------------: |
-|    固件     |     VN007_1.X      |     VN007_3.X      |    VN007+_1.9.X    |   VN007+_1.10.X    |
-|    设备     |       VN007        |       VN007        |       VN007+       |       VN007+       |
-|  维护状态   |      停止维护      |       维护中       |      停止维护      |       维护中       |
-|  最新版本   |        1.9         |        3.12        |       1.9.32       |       1.10.2       |
-| 5G NSA 支持 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| 5G SA 支持  |        :x:         | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-|  邻区显示   |        :x:         |        :x:         |        :x:         | :heavy_check_mark: |
-|    eSIM     |        :x:         |        :x:         |        :x:         |        :x:         |
-|    短信     |        :x:         |        :x:         |        :x:         |        :x:         |
-|  固件下载   |                    |                    |                    |                    |
-|  更新日志   |         -          |         -          |         -          |       待补充       |
+|             |      X21_IDU       |     X21_IDU_SA     |        X21G        |                           X21G_IDU                           |
+| :---------: | :----------------: | :----------------: | :----------------: | :----------------------------------------------------------: |
+|    固件     |     VN007_1.X      |     VN007_3.X      |    VN007+_1.9.X    |                        VN007+_1.10.X                         |
+|    设备     |       VN007        |       VN007        |       VN007+       |                            VN007+                            |
+|  维护状态   |      停止维护      |       维护中       |      停止维护      |                            维护中                            |
+|  最新版本   |        1.9         |        3.12        |       1.9.32       |                           1.10.10                            |
+| 5G NSA 支持 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                      :heavy_check_mark:                      |
+| 5G SA 支持  |        :x:         | :heavy_check_mark: | :heavy_check_mark: |                      :heavy_check_mark:                      |
+|  邻区显示   |        :x:         |        :x:         |        :x:         |                      :heavy_check_mark:                      |
+|    eSIM     |        :x:         |        :x:         |        :x:         |                             :x:                              |
+|    短信     |        :x:         |        :x:         |        :x:         |                             :x:                              |
+|  链路检测   |        :x:         |        :x:         |        :x:         |                      :heavy_check_mark:                      |
+|  固件下载   |                    |                    |                    | [VN007+](https://github.com/TardisLX/vn007_history_firmware/tree/master/X21G_IDU) |
+|  更新日志   |         -          |         -          |         -          | [点此查看](https://github.com/TardisLX/vn007_history_firmware/blob/master/X21G_IDU/Changelog.txt) |
 
 #### 注意：
 
 * VN007 只能使用 X21 开头的固件，VN007+ 只能使用 X21G 开头的固件！
-* **VN007 的 1.X 与 3.X 之间不可随意升降级！！！**
+* **VN007的 1.X 与 3.X 之间不可随意升降级！！！**
 * 上传升级包进行升级时，强烈建议使用 Chrouium内核的浏览器！以保证最佳兼容性！
-* 对于VN007+，强烈建议使用`VN007+_1.10.X`固件！
+* 对于VN007+，强烈建议使用`VN007+_1.10.10`固件！
 * 刷固件存在一定风险，下载本项目固件带来的所有风险由您自行承担。
 * 本项目非官方，因缺失官方渠道，个人作为普通用户搜集提供以上固件。
 
