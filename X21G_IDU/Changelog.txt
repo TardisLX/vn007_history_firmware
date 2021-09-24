@@ -1,0 +1,13 @@
+VN007+ X21G_IDU firmware Changelog
+==========================================
+1.10.10
+   - add	增加 链路通信设置 配置项
+   - add	增加 流量设置 配置项
+   - fix	修复 IP Passthrough 模式下无法传递IPv6地址的Bug
+   - fix	修复 移动网络信息 中不显示 RSSI 数据的Bug
+   - update	更新 室内单元固件版本 到 X21G_V1.8.5
+   - update	更新 模块软件版本 到 W21.37.3_Debug
+   
+1.10.2
+   - add	增加 邻区信息 显示
+   - fix	修复 IP Passthrough 模式下无法更新传递新的IPv4地址的Bug
